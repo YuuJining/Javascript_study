@@ -2,7 +2,7 @@
 // use this for vanilla-javascript
 'use-strict';
 
-//2. Variable
+//2. Variable r/w(read/write) - 메모리에서 읽고 쓰는 것이 가능함
 // let (added ES6)
 // let이 나오기 전에는 var 사용함
 // var hoisting : 어디서 선언하던지 상관없이 항상 선언을 제일 위로 끌어올려 주는 것
@@ -24,6 +24,9 @@ console.log(globalname); // block 밖의 global변수 이므로 출력됨
 // - thread safety
 // - reduce human mistake
 
+//Note!
+//Imumutable data types : premitive types, frozen objects(i.e object.freeze())
+//Mutable data types : all objects
 const max = 5;
 
 // 정리
